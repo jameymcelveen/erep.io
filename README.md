@@ -1,8 +1,8 @@
-# 🛡️ Echo Rep
+# 🛡️ eRep.io
 
 > **AI-Powered Reputation Defense.** Built with .NET 8, React, and React Native.
 
-[![CI](https://github.com/jameymcelveen/echo-rep/actions/workflows/ci.yml/badge.svg)](https://github.com/jameymcelveen/echo-rep/actions/workflows/ci.yml)
+[![CI](https://github.com/jameymcelveen/erep.io/actions/workflows/ci.yml/badge.svg)](https://github.com/jameymcelveen/erep.io/actions/workflows/ci.yml)
 ![Stack](https://img.shields.io/badge/stack-.NET%208%20%7C%20React%20%7C%20Expo-512BD4?style=flat-square)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
@@ -12,10 +12,14 @@
 
 ## 🏗️ Monorepo Structure
 
-echo-rep
+```text
+erep.io
 ├─ api: ASP.NET Core 8 Web API. Hosted on Railway.
 ├─ web: React (Vite) Frontend. Hosted on Vercel.
 └─ mobile: React Native (Expo) App.
+```
+
+**Site:** https://erep.io
 
 ## 🛠️ Development
 

@@ -1,4 +1,4 @@
-# EchoRep MVP Scope (C# / React / Mobile)
+# eRep MVP Scope (C# / React / Mobile)
 
 ## The Technical Core
 

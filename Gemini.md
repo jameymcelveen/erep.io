@@ -1,4 +1,6 @@
-# Gemini Logic Guide: .NET & React Edition
+# Gemini Logic Guide: eRep.io (.NET & React)
+
+**Product:** eRep.io (domain: `erep.io`) — AI-powered reputation defense. Monorepo roots: `api/` (C#), `web/` (Vite + React), `mobile/` (Expo).
 
 ## Persona
 

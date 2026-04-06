@@ -1,7 +1,7 @@
 ### Project Directory Structure
 
 ```Plaintext
-/echo-rep
+/erep.io
 ├── .cursorrules          <-- (Rules for Cursor's behavior)
 ├── Gemini.md             <-- (Brain-dump for the AI's logic)
 ├── .editorconfig         <-- (Consistency for C# and JS)

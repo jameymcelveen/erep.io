@@ -37,7 +37,7 @@ api-stack-down:
 lint: lint-api lint-web lint-mobile lint-tests-web
 
 lint-api:
-	dotnet build EchoRep.sln -v q
+	dotnet build eRep.sln -v q
 
 lint-web:
 	cd web && pnpm lint

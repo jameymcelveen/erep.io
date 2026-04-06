@@ -1,6 +1,6 @@
 1. Web Dashboard (React)
 +---------------------------------------------------------------+
-|  EchoRep [🛡️]          Loc: [Joe's Pizza - Main St. v]  [User Settings] |
+|  eRep [🛡️]          Loc: [Joe's Pizza - Main St. v]  [User Settings] |
 +---------------------------------------------------------------+
 |  [≡] Dashboard                                                |
 |  [📝] Reviews (12 New)   <-- Active Navigation               |
@@ -41,7 +41,7 @@
 
 2. Mobile App (React Native)
 +-----------------------+
-|  < Back     EchoRep   |
+|  < Back     eRep   |
 +-----------------------+
 |                       |
 |  🚨 NEW CRITICAL     |
@@ -75,7 +75,7 @@
 
 3. Web Settings (React)
 +---------------------------------------------------------------+
-|  EchoRep [🛡️]          Loc: [Joe's Pizza - Main St. v]          |
+|  eRep [🛡️]          Loc: [Joe's Pizza - Main St. v]          |
 +---------------------------------------------------------------+
 |  [📝] Reviews                                                 |
 |  [⚙️] Settings            <-- Active Navigation               |

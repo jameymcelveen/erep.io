@@ -1,4 +1,12 @@
-# EchoRep Tech Stack & Rules
+# eRep.io Tech Stack & Rules
+
+**Brand:** eRep.io — **Domain:** https://erep.io
+
+## Repository layout (index these roots)
+
+- **`api/`** — .NET 8 Web API (C#)
+- **`web/`** — React 18 (Vite), TypeScript, pnpm
+- **`mobile/`** — React Native (Expo), TypeScript
 
 ## Tech Stack
 

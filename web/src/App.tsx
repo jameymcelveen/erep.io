@@ -52,7 +52,7 @@ const App = () => {
             <Shield className="size-5 text-primary" aria-hidden />
           </span>
           <div className="leading-tight">
-            <div className="font-heading text-sm font-semibold">EchoRep</div>
+            <div className="font-heading text-sm font-semibold">eRep</div>
             <div className="text-xs text-muted-foreground">Defense</div>
           </div>
         </div>
@@ -99,7 +99,7 @@ const App = () => {
         <header className="sticky top-0 z-10 flex flex-wrap items-center justify-between gap-3 border-b border-border bg-card/95 px-4 py-3 backdrop-blur supports-[backdrop-filter]:bg-card/80">
           <div className="flex items-center gap-2 md:hidden">
             <Shield className="size-6 text-primary" />
-            <span className="font-heading font-semibold">EchoRep</span>
+            <span className="font-heading font-semibold">eRep</span>
           </div>
           <div className="flex flex-wrap items-center gap-2">
             <span className="hidden text-sm text-muted-foreground md:inline">

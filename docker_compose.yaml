@@ -2,15 +2,15 @@ services:
   db:
     image: postgres:16-alpine
     environment:
-      POSTGRES_USER: echorep
-      POSTGRES_PASSWORD: echorep_dev
-      POSTGRES_DB: echorep
+      POSTGRES_USER: erep
+      POSTGRES_PASSWORD: erep_dev
+      POSTGRES_DB: erep
     ports:
       - '5432:5432'
     volumes:
-      - echorep_pgdata:/var/lib/postgresql/data
+      - erep_pgdata:/var/lib/postgresql/data
     healthcheck:
-      test: ['CMD-SHELL', 'pg_isready -U echorep -d echorep']
+      test: ['CMD-SHELL', 'pg_isready -U erep -d erep']
       interval: 5s
       timeout: 5s
       retries: 5
@@ -26,7 +26,7 @@ services:
       ASPNETCORE_URLS: http://+:8080
       OPENAI_API_KEY: ${OPENAI_API_KEY:-}
       ConnectionStrings__DefaultConnection: >-
-        Host=db;Port=5432;Database=echorep;Username=echorep;Password=echorep_dev
+        Host=db;Port=5432;Database=erep;Username=erep;Password=erep_dev
     depends_on:
       db:
         condition: service_healthy
@@ -43,4 +43,4 @@ services:
       - api
 
 volumes:
-  echorep_pgdata:
+  erep_pgdata:
