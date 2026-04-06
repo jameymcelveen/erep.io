@@ -1,0 +1,18 @@
+# EchoRep Tech Stack & Rules
+
+## Tech Stack
+
+- **Backend:** .NET 8 Web API (C#), Entity Framework Core, xUnit.
+- **Frontend Web:** React 18 (Vite), TypeScript, pnpm, Tailwind CSS, Shadcn/UI.
+- **Mobile:** React Native (Expo), TypeScript.
+- **Infrastructure:** Railway (API/DB), Vercel (Web), GitHub Actions (CI/CD).
+
+## Rules of Engagement
+
+- **No NPM:** Always use `pnpm` for frontend commands.
+- **C# Style:** Use File-Scoped Namespaces, Primary Constructors (C# 12), and clean Dependency Injection.
+- **React Style:** Use Functional Components with Arrow Functions. Define Props as Interfaces.
+- **Architecture:** Keep the API thin. Logic belongs in Services, not Controllers. Use DTOs for data transfer.
+- **Naming:** - C#: PascalCase for classes/methods.
+    - TS/JS: camelCase for variables/functions, PascalCase for Components.
+- **Testing:** Every new Service in the API must have a corresponding test in the `.tests` project.

@@ -1,0 +1,100 @@
+1. Web Dashboard (React)
++---------------------------------------------------------------+
+|  EchoRep [🛡️]          Loc: [Joe's Pizza - Main St. v]  [User Settings] |
++---------------------------------------------------------------+
+|  [≡] Dashboard                                                |
+|  [📝] Reviews (12 New)   <-- Active Navigation               |
+|  [⚙️] Settings                                                 |
+|  [💳] Billing                                                  |
++---------------------------------------------------------------+
+|                                                               |
+|   YOUR REVIEW DEFENSE FEED                                    |
+|   Showing: [All v]  Sort: [Newest v]                          |
+|                                                               |
+|  +-------------------------------------------------------+    |
+|  |  ⭐️⭐️⭐️⭐️⭐️  by: Sarah M. (3 days ago)                   |    |
+|  |                                                       |    |
+|  |  "The pepperoni pizza was amazing! Will be back."       |    |
+|  |                                                       |    |
+|  |  [Reply Sent v]  <-- Status Tag                       |    |
+|  +-------------------------------------------------------+    |
+|                                                               |
+|  +-------------------------------------------------------+    |
+|  |  ⭐️      by: AngryBob (1 day ago) [CRITICAL 🚨]       |    |
+|  |                                                       |    |
+|  |  "Delivery took 2 hours. Pizza was cold. Rude staff."   |    |
+|  |                                                       |    |
+|  |  [Generate Defense 👇]                                  |    |
+|  |  [Professional] [Empathetic] [Firm] <-- Tone Selector     |    |
+|  |                                                       |    |
+|  |  +-----------------------------------------------+    |    |
+|  |  | [Drafting...]                                 |    |    |
+|  |  | "Hi Bob, we are so sorry to hear about this..."|    |    |
+|  |  |                                               |    |    |
+|  |  +-----------------------------------------------+    |    |
+|  |  [Edit Draft]  [Post Response to Google 🚀]              |    |
+|  +-------------------------------------------------------+    |
+|                                                               |
++---------------------------------------------------------------+
+
+
+
+2. Mobile App (React Native)
++-----------------------+
+|  < Back     EchoRep   |
++-----------------------+
+|                       |
+|  🚨 NEW CRITICAL     |
+|     REVIEW ALERT      |
+|                       |
+|  Location:            |
+|  Joe's Pizza - Main   |
+|                       |
++-----------------------+
+|                       |
+|  ⭐️                  |
+|  by: "Disappointed"   |
+|  (5 mins ago)         |
+|                       |
+|  "Found a hair in my  |
+|   pasta. Disgusting!" |
+|                       |
++-----------------------+
+|  DEFEND (Pick Tone):  |
+|                       |
+|  [ Professional ]     |
+|  [   Empathetic   ]     |
+|  [      Firm      ]     |
++-----------------------+
+|                       |
+|  [ Review Draft ]     |
+|  [ Post Response ]    |
+|                       |
++-----------------------+
+
+
+3. Web Settings (React)
++---------------------------------------------------------------+
+|  EchoRep [🛡️]          Loc: [Joe's Pizza - Main St. v]          |
++---------------------------------------------------------------+
+|  [📝] Reviews                                                 |
+|  [⚙️] Settings            <-- Active Navigation               |
++---------------------------------------------------------------+
+|                                                               |
+|   LOCATION SETTINGS: Joe's Pizza - Main St.                   |
+|                                                               |
+|   1. Google Business Profile:  [ Connected ✅ ]                |
+|                                                               |
+|   2. Brand Personality Context (Train the AI):                |
+|      This helps the AI sound like YOU.                       |
+|      +-------------------------------------------------+      |
+|      | "We are a family-owned, upscale Italian        |      |
+|      | restaurant. We value authentic ingredients and |      |
+|      | great customer service. We offer a 100%        |      |
+|      | money-back guarantee on any dish."             |      |
+|      +-------------------------------------------------+      |
+|                                                               |
+|   3. Default Response Tone:  [ Professional v ]               |
+|                                                               |
+|   [ Save Settings ]                                           |
++---------------------------------------------------------------+

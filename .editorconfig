@@ -1,0 +1,19 @@
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.{js,ts,jsx,tsx,json,yml,md}]
+indent_size = 2
+
+[*.cs]
+# C# Coding Conventions
+dotnet_diagnostic.IDE0005.severity = warning
+dotnet_style_qualification_for_field = false:silent
+dotnet_style_qualification_for_property = false:silent
+dotnet_style_require_beginning_of_line_consistency = true

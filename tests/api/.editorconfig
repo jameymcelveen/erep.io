@@ -1,0 +1,5 @@
+root = false
+
+[*.cs]
+# xUnit test method naming uses underscores by convention
+dotnet_diagnostic.CA1707.severity = none

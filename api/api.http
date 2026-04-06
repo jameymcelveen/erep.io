@@ -1,0 +1,17 @@
+@api_HostAddress = http://localhost:5044
+
+GET {{api_HostAddress}}/api/Status
+Accept: application/json
+
+###
+
+POST {{api_HostAddress}}/api/DefenseDraft
+Content-Type: application/json
+
+{
+  "tone": "Empathetic",
+  "reviewText": "Delivery took 2 hours. Pizza was cold.",
+  "reviewerName": "AngryBob"
+}
+
+###
