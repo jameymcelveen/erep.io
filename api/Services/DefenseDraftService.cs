@@ -2,12 +2,12 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using api.Interfaces;
-using api.Models;
-using api.Options;
+using eRep.Api.Interfaces;
+using eRep.Api.Models;
+using eRep.Api.Options;
 using Microsoft.Extensions.Options;
 
-namespace api.Services;
+namespace eRep.Api.Services;
 
 public class DefenseDraftService(
     IOptions<DefenseDraftOptions> options,

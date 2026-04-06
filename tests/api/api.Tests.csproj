@@ -3,7 +3,7 @@
   <PropertyGroup>
     <IsPackable>false</IsPackable>
     <IsTestProject>true</IsTestProject>
-    <RootNamespace>api.Tests</RootNamespace>
+    <RootNamespace>eRep.Api.Tests</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

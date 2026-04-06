@@ -15,6 +15,20 @@
 - **Mobile:** React Native (Expo), TypeScript.
 - **Infrastructure:** Railway (API/DB), Vercel (Web), GitHub Actions (CI/CD).
 
+## C# namespaces
+
+- Root namespace is **`eRep.Api`**. Use segments such as `eRep.Api.Services`, `eRep.Api.Controllers`, `eRep.Api.Models`, `eRep.Api.Interfaces`, `eRep.Api.Options`. API tests use **`eRep.Api.Tests`**.
+
+## Git & GitHub CLI (agent workflow)
+
+When the user gives a keyword with their request, finish the code changes first, then run git from the repo root using the **same commit message** they supplied for the code task (title + body as needed):
+
+- **`merge`** — `git add -A` and `git commit` with that message. If the current branch is **`main`**: `git push`. If the current branch is **`develop`**: `git push`, then `gh pr create` with the requested **title** and **body** (or derive from the commit message), then **`gh pr merge`** into `main` (use the PR just created; prefer `--merge` unless the repo standard is otherwise).
+- **`pr`** — Must be on **`develop`**. `git add -A`, `git commit`, `git push`, then `gh pr create` with the requested **title** and **body**. Do **not** merge.
+- **`push`** — On **whatever branch** is current: `git add -A`, `git commit` with the message, then `git push`.
+
+If there is nothing to commit, say so and do not create an empty commit.
+
 ## Rules of Engagement
 
 - **No NPM:** Always use `pnpm` for frontend commands.

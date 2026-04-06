@@ -3,6 +3,7 @@
   <PropertyGroup>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>eRep.Api</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

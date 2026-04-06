@@ -1,8 +1,8 @@
-using api.Interfaces;
-using api.Models;
+using eRep.Api.Interfaces;
+using eRep.Api.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace api.Controllers;
+namespace eRep.Api.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

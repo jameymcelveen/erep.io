@@ -1,4 +1,4 @@
-namespace api.Options;
+namespace eRep.Api.Options;
 
 public class DefenseDraftOptions
 {

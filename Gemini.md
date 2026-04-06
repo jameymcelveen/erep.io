@@ -1,6 +1,10 @@
 # Gemini Logic Guide: eRep.io (.NET & React)
 
-**Product:** eRep.io (domain: `erep.io`) — AI-powered reputation defense. Monorepo roots: `api/` (C#), `web/` (Vite + React), `mobile/` (Expo).
+**Product:** eRep.io — **domain:** `https://erep.io` — AI-powered reputation defense.
+
+**Monorepo:** `api/` (C#), `web/` (Vite + React), `mobile/` (Expo).
+
+**C# namespaces:** Use the `eRep.Api` root (e.g. `eRep.Api.Services`, `eRep.Api.Controllers`, `eRep.Api.Tests` in xUnit).
 
 ## Persona
 

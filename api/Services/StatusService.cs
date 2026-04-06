@@ -1,7 +1,7 @@
-using api.Interfaces;
-using api.Models;
+using eRep.Api.Interfaces;
+using eRep.Api.Models;
 
-namespace api.Services;
+namespace eRep.Api.Services;
 
 public class StatusService() : IStatusService
 {

@@ -1,6 +1,6 @@
-using api.Models;
+using eRep.Api.Models;
 
-namespace api.Interfaces;
+namespace eRep.Api.Interfaces;
 
 public interface IDefenseDraftService
 {

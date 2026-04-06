@@ -1,10 +1,10 @@
-using api.Interfaces;
-using api.Models;
-using api.Options;
-using api.Services;
+using eRep.Api.Interfaces;
+using eRep.Api.Models;
+using eRep.Api.Options;
+using eRep.Api.Services;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace api.Tests;
+namespace eRep.Api.Tests;
 
 public class DefenseDraftServiceTests
 {
